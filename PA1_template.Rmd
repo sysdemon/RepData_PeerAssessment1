@@ -18,7 +18,7 @@ hist(tot_steps, breaks=15, xlab="steps/day")
 - Calculate and report the **mean** and **median** total number of steps taken per day
 
 ```{r}
-mean(tot_steps, na.rm=T)
+mean(tot_steps,  na.rm=T)
 median(tot_steps, na.rm=T)
 ```
 
